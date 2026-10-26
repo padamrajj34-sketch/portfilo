@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import resumeUrl from '../assets/files/Darbin_Joshi_CV.pdf'
 
 const projects = [
   { title: 'StudyWithGame', category: 'Full-stack', description: 'A game-inspired learning platform for Class 11 and 12 students, combining quizzes, progression, leaderboards, and teacher-managed question content.', stack: ['PHP', 'MySQL', 'JavaScript', 'CSS'], status: 'In active development', accent: 'lime' },
@@ -60,7 +61,7 @@ export default function App() {
     </header>
     <main id="main-content">
       <section className="hero" id="top">
-        <div className="hero-copy"><div className="availability"><span></span>Open to internships &amp; junior opportunities</div><p className="eyebrow">B.E. Computer Engineering · Kathmandu University</p><h1>I build web experiences that feel <em>clear, useful and alive.</em></h1><p className="hero-intro">I’m Darbin, an early-career developer in Nepal turning ideas into responsive, practical web products with PHP, MySQL, JavaScript, and a lot of curiosity.</p><div className="hero-actions"><a className="button primary" href="#projects">Explore my work <Arrow /></a><a className="button secondary" href="./assets/files/Darbin_Joshi_CV.pdf" target="_blank" rel="noreferrer">View résumé <External /></a></div></div>
+        <div className="hero-copy"><div className="availability"><span></span>Open to internships &amp; junior opportunities</div><p className="eyebrow">B.E. Computer Engineering · Kathmandu University</p><h1>I build web experiences that feel <em>clear, useful and alive.</em></h1><p className="hero-intro">I’m Darbin, an early-career developer in Nepal turning ideas into responsive, practical web products with PHP, MySQL, JavaScript, and a lot of curiosity.</p><div className="hero-actions"><a className="button primary" href="#projects">Explore my work <Arrow /></a><a className="button secondary" href={resumeUrl} target="_blank" rel="noreferrer">View résumé <External /></a></div></div>
         <div className="hero-visual" aria-label="Developer profile summary"><div className="orbit orbit-one"></div><div className="orbit orbit-two"></div><div className="profile-disc"><span className="disc-kicker">Hello, I'm</span><strong>DJ</strong><span>Dhulikhel, Nepal</span></div><div className="floating-note note-code"><span>Current focus</span><strong>Full-stack web</strong></div><div className="floating-note note-exp"><span>Industry experience</span><strong>6-month internship</strong></div><div className="code-chip chip-one">&lt;build /&gt;</div><div className="code-chip chip-two">{'{ learn }'}</div></div>
         <div className="hero-foot"><span>Scroll to explore</span><div className="scroll-line"></div><span>Portfolio · 2026</span></div>
       </section>
@@ -74,4 +75,3 @@ export default function App() {
     <footer><a className="brand footer-brand" href="#top"><span className="brand-mark">DJ</span><span className="brand-text">Darbin Joshi<small>Computer Engineer</small></span></a><p>Designed with intent. Built with curiosity.</p><div><a href="mailto:padamraji34@gmail.com">Email</a><a href="https://github.com/padamrajj34-sketch" target="_blank" rel="noreferrer">GitHub</a><a href="#top">Back to top ↑</a></div><small>© {new Date().getFullYear()} Darbin Joshi. All rights reserved.</small></footer>
   </div>
 }
-
