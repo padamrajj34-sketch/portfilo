@@ -7,11 +7,11 @@ const projects = [
   { title: 'Quiz Platform', category: 'Full-stack', description: 'A timed quiz experience with categories, randomized questions, score tracking, a leaderboard, and an admin-managed question bank.', stack: ['PHP', 'MySQL', 'JavaScript', 'HTML/CSS'], status: 'Built project', accent: 'coral' },
 ]
 const skills = [
-  { name: 'HTML & CSS', category: 'Web fundamentals', stage: 'Using in projects', progress: 72 },
-  { name: 'JavaScript', category: 'Programming language', stage: 'Building confidence', progress: 58 },
-  { name: 'PHP', category: 'Backend development', stage: 'Using in projects', progress: 68 },
-  { name: 'MySQL & SQL', category: 'Database', stage: 'Building confidence', progress: 55 },
-  { name: 'C++', category: 'Programming language', stage: 'Practicing fundamentals', progress: 46 },
+  { name: 'HTML & CSS', category: 'Web fundamentals', stage: 'Using in projects', progress: 80 },
+  { name: 'JavaScript', category: 'Programming language', stage: 'Building confidence', progress: 70 },
+  { name: 'PHP', category: 'Backend development', stage: 'Using in projects', progress: 40 },
+  { name: 'MySQL & SQL', category: 'Database', stage: 'Building confidence', progress: 65 },
+  { name: 'C++', category: 'Programming language', stage: 'Practicing fundamentals', progress: 30 },
   { name: 'React', category: 'Frontend framework', stage: 'Currently learning', progress: 30 },
 ]
 const experience = [
